@@ -78,6 +78,7 @@ perspective: 700px;
     
 }
 
+
 .back {
     background-color:var(--color-mediumgrey);
     transform: rotateY(-180deg);
@@ -122,13 +123,17 @@ perspective: 700px;
     background-color: var(--color-mediumgrey);
     color: var(--color-white);
     border: 1px solid var(--color-ligthgrey);
+    
 }
 
 .card:hover .front{
     transform:rotateY(180deg);
     z-index: 0;
+    
 }
-
+.card:hover .front h2{
+    color: rgb(12, 7, 255);
+}
 .card:hover .back {
     transform: rotateY(0);
     z-index: 1;
